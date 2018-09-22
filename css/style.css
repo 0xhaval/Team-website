@@ -68,30 +68,7 @@ footer.page-footer .footer-copyright{
     max-width: 250px;
 }
 
-@media(min-width:0) and (max-width:390px){
-    .pict{
-        margin-left: -89px;
-        
-    }
-}
 
-@media(min-width:391px) and (max-width:430px){
-    .pict{
-        margin-left: -80px; 
-    }
-}
-
-@media(min-width:431px) and (max-width:480px){
-    .pict{
-        margin-left: -55px; 
-    }
-}
-
-@media(min-width:481px) and (max-width:530px){
-    .pict{
-        margin-left: -40px; 
-    }
-}
 
 @media(min-width:531px) and (max-width:580px){
     .pict{
@@ -123,7 +100,7 @@ footer.page-footer .footer-copyright{
 }
 }
 
-@media(min-width:0) and (max-width:390px){
+@media(min-width:390px) and (max-width:490px){
     h1{
         font-size: 30px
     }
@@ -145,19 +122,28 @@ footer.page-footer .footer-copyright{
     }
     .btn.btn-sm{
         padding: 0.5rem 3.6rem;
-        margin-left: -40px
+        margin-left: -8px
     }
     .prog{
         min-width: 200px;
-        margin-left: -40px
+        margin-left: -6px
     }
     .prog1{
         min-width: 200px;
-        margin-left: -40px
+        margin-left: -6px
     }
     .prog2{
         min-width: 200px;
-        margin-left: -40px
+        margin-left: -6px
+    }
+    .pict{
+        margin-left: -55px
+    }
+    .blockquote .bq-title, .card, .card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6, table th{
+        font-size: 15px
+    }
+    .card{
+        padding: 18px
     }
 }
 
