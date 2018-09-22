@@ -1,0 +1,125 @@
+body{
+    height: 1000px;
+}
+
+h1{
+    
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size:60px;
+    font-family: 'Revalia', cursive;
+    text-align: center;
+    text-shadow: 0 1px 0 #ccc,
+                   0 2px 0 #c9c9c9,
+                   0 3px 0 #bbb,
+                   0 4px 0 #b9b9b9,
+                   0 5px 0 #aaa,
+                   0 6px 1px rgba(0,0,0,.1),
+                   0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                   0 10px 10px rgba(0,0,0,.2),
+                   0 20px 20px rgba(0,0,0,.15);
+}
+
+h1::selection{
+    color: black;
+    background-color: darkturquoise
+}
+
+span{
+    font-size: 70px;
+    color:dodgerblue
+}
+
+span::selection{
+    color: black;
+    background-color: darkturquoise
+}
+
+.card{
+    padding:50px;
+    width: 70%;
+    margin-left: 15%;
+    box-shadow: 0 0;
+    transition: .1s ease-in-out;
+    margin-bottom: 60px;
+    background-color: whitesmoke
+}
+.card:hover{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)
+}
+
+.indigo-text{
+    color: dodgerblue!important;
+}
+
+.hi{
+    margin-top: 15px
+}
+
+footer.page-footer .footer-copyright{
+    background-color: black
+}
+
+.rounded{
+    max-height: 250px;
+    max-width: 250px;
+}
+
+@media(min-width:0) and (max-width:390px){
+    .pict{
+        margin-left: -89px;
+        
+    }
+}
+
+@media(min-width:391px) and (max-width:430px){
+    .pict{
+        margin-left: -80px; 
+    }
+}
+
+@media(min-width:431px) and (max-width:480px){
+    .pict{
+        margin-left: -55px; 
+    }
+}
+
+@media(min-width:481px) and (max-width:530px){
+    .pict{
+        margin-left: -40px; 
+    }
+}
+
+@media(min-width:531px) and (max-width:580px){
+    .pict{
+        margin-left: -30px; 
+    }
+}
+
+@media(min-width:630px) and (max-width:730px){
+    .prog{
+    margin-left:40px
+}
+}
+
+@media(min-width:731px) and (max-width:790px){
+    .prog{
+    margin-left:60px
+}
+}
+
+@media(min-width:791px) and (max-width:870px){
+    .prog{
+    margin-left:70px
+}
+}
+
+@media(min-width:871px) and (max-width:991px){
+    .prog{
+    margin-left:100px
+}
+}
+
