@@ -123,3 +123,41 @@ footer.page-footer .footer-copyright{
 }
 }
 
+@media(min-width:0) and (max-width:390px){
+    h1{
+        font-size: 30px
+    }
+    span{
+        font-size: 50px
+    }
+    
+    .pict1{
+        height: 80%;
+        margin-left: -25px;
+    }
+    
+    .pict-text{
+        font-size: 14px
+    }
+    
+    .h4, h4{
+        font-size: 15px
+    }
+    .btn.btn-sm{
+        padding: 0.5rem 3.6rem;
+        margin-left: -40px
+    }
+    .prog{
+        min-width: 200px;
+        margin-left: -40px
+    }
+    .prog1{
+        min-width: 200px;
+        margin-left: -40px
+    }
+    .prog2{
+        min-width: 200px;
+        margin-left: -40px
+    }
+}
+
